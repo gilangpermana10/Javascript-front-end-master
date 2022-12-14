@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator Perbandingan</title>
+</head>
+<body>
+
+    <h1>Operator Perbandingan</h1>
+    <script>
+        const a = 10;
+        const b = 20;
+        const c = 10;
+
+        console.log(a > b);
+        console.log(a < b);
+        console.log(a == c);
+        console.log(a != c);
+        console.log(a >= c);
+        console.log(a <= c);
+    </script>
+
+    <h1>Operator lainnya</h1>
+    <script>
+        const nilaiUjian = 70;
+        const nilaiAbsensi = 90;
+
+        const lulusUjian = nilaiUjian >= 75;
+        document.writeln("Lulus ujian: " + lulusUjian + "<br>");
+
+        const lulusAbsensi = nilaiAbsensi >= 75;
+        document.writeln("Lulus absensi: " + lulusAbsensi + "<br>");
+
+        const lulus = lulusUjian && lulusAbsensi;
+        document.writeln("Lulus: " + lulus + "<br>");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+        const firstName = "Gilang";
+        const lastName = "Permana";
+        const nilai = 80;
+
+        const template = `Hello ${firstName} ${lastName} ${nilai >= 75 ? "Lulus" : "Tidak Lulus"}`;
+        document.writeln(template);
+    </script>
+    
+    <br>
+
+    <script>
+        const multiLine=`
+Hello,
+nama saya gilang,
+saya dari sukabumi
+        `;
+
+        document.writeln("</pre>");
+        document.writeln(multiLine);
+        document.writeln("</pre>");
+    </script>
+</body>
+</html>
